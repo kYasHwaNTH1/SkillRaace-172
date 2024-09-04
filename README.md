@@ -1,1 +1,1 @@
-Task 1 and 2 
+All the tasks are the in this repo.
