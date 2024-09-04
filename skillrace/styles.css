@@ -1,0 +1,227 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+.middlepart{
+    display:flex;
+    align-items: center;
+    height: 45vw;
+    width: 100%;
+    
+}
+.leftpart{
+    height: 45vw;
+    width: 50vw;
+    color: white;
+    background-color:black;
+    border: 2px soild white;
+}
+.rightpart{
+    height: 45vw;
+    width: 50%;
+color: black;
+    background-color:black;
+    border: 2px soild white;
+}
+
+.leftpart h1 {
+  margin: 11vw 0 0 12vw;
+}
+
+.leftpart h2{
+    margin: 1vw 0 0 7vw;
+}
+.leftpart p{
+    margin: 2vw;
+}
+
+#cp{
+    margin-top: 4vw;
+    height: 40vw;
+    width: 40vw;
+}
+
+img{
+    height: 6vw;
+    width: 6vw;
+}
+.tabless{
+    margin-top: 7vw;
+}
+.tabless a{
+        background-color: black;
+ color: white;
+ border: 2px solid black;
+}
+.tabless a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+.price{
+    margin-left: 47vw;
+}
+.ContactForm{
+    display: flex;
+    height: 50vw;
+    width: 100%;
+flex-direction: column;
+margin-top: 10vw;
+}
+.ContactForm h1{
+    /* margin: 3vw 20vw 0 39vw ; */
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+#name{
+    height: 4vw;
+    width: 30vw;
+    margin: 3vw 20vw 0 34vw;
+    border-radius: 0.5vw;
+    border: 2px solid black;
+}
+#email{
+    height: 4vw;
+    width: 30vw;
+    margin: 2vw 20vw 0 34vw;
+    border-radius: 0.5vw;
+    border: 2px solid black;
+}
+
+#message{
+    height: 6vw;
+    width: 30vw;
+    margin: 2vw 20vw 0 34vw;
+    border-radius: 0.5vw;
+    border: 2px solid black;
+}
+#submit{
+    background-color: white;
+    color: black;
+    margin: 2vw 20vw 0 44vw;
+    height: 3vw;
+    width: 10vw;
+    border: 2px solid black;
+}
+#submit:hover{
+     background-color: black;
+     color: white;
+}
+.gallery{
+
+    height: 50vw;
+    width: 50%;
+    margin: 11vw 20vw 0 28vw;
+}
+.gallery h1{
+    margin: 3vw 0 2vw 20vw;
+}
+.row1{
+margin-bottom: 0.3vw;
+    height: 33%;
+
+}
+.row2{
+    margin-bottom: 0.3vw;
+    height: 33%;
+    
+}
+.row3{
+
+    height: 33%;
+    
+}
+#img1{
+    height: 100%;
+    width: 33%;
+}
+#img2{
+    height: 100%;
+    width: 33%;
+}
+#img3{
+    height: 100%;
+    width: 32%;
+}
+#img4{
+    height: 100%;
+    width: 33%;
+}
+#img5{
+    height: 100%;
+    width: 33%;
+}
+#img6{
+    height: 100%;
+    width: 32%;
+}
+#img7{
+    height: 100%;
+    width: 33%;
+}
+#img8{
+    height: 100%;
+    width: 33%;
+}
+#img9{
+    height: 100%;
+    width: 32%;
+}
+#img1:hover{
+    border-radius: 1vw;
+}
+#img2:hover{
+    border-radius: 1vw;
+}
+#img3:hover{
+    border-radius: 1vw;
+}
+#img4:hover{
+    border-radius: 1vw;
+}
+#img5:hover{
+    border-radius: 1vw;
+}
+#img6:hover{
+    border-radius: 1vw;
+}
+#img7:hover{
+    border-radius: 1vw;
+}
+#img8:hover{
+    border-radius: 1vw;
+}
+#img9:hover{
+    border-radius: 1vw;
+}
+footer{
+    height: 2vw;
+    background-color: aliceblue;
+    color: black;
+}
+footer p{
+    text-align: center;
+}
+
+@media (max-width: 970px) {
+    .middlepart {
+        height: auto;
+    }
+    
+    .leftpart, .rightpart {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2vw;
+    }
+
+    .leftpart h1 {
+        margin: 5vw auto;
+    }
+
+    .ContactForm, .gallery {
+        margin-top: 5vw;
+    }
+}
